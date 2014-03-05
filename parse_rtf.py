@@ -13,7 +13,7 @@ if __name__ == "__main__":
     print "Input file =", fn
     
     # read file data
-    f = open(fn, "rt")
+    f = open(fn, "rU")
     data = f.read()
     
     # RTF last byte is \x00, remove it
